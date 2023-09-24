@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "title": "Stylish Leather Jacket",
+        "category": "Clothing",
+        "category_bg": "#FF5733",
+        "card_bg": "#ECECEC",
+        "text_button_bg": "#333333",
+        "description": "This fashionable leather jacket is perfect for any season. Made with high-quality leather, it's both comfortable and stylish. Available in various sizes.",
+        "price": "$149.99",
+        "image_url": "https://i.ibb.co/hyxcsfd/Health.png"
+    },
+    {
+        "id": 2,
+        "title": "Elegant Wristwatch",
+        "category": "Accessories",
+        "category_bg": "#007BFF",
+        "card_bg": "#F0F0F0",
+        "text_button_bg": "#333333",
+        "description": "Stay punctual and fashionable with this elegant wristwatch. Featuring a stainless steel strap and a precise quartz movement.",
+        "price": "$79.99",
+        "image_url": "https://i.ibb.co/N9YPR9P/Education.png"
+    },
+    {
+        "id": 3,
+        "title": "Vintage Bicycle",
+        "category": "Sports & Outdoors",
+        "category_bg": "#4CAF50",
+        "card_bg": "#F5F5F5",
+        "text_button_bg": "#333333",
+        "description": "Rediscover the joy of cycling with this vintage-inspired bicycle. It's perfect for leisurely rides through the park or your daily commute.",
+        "price": "$299.00",
+        "image_url": "https://i.ibb.co/SNnfgK1/Clothing.png"
+    },
+    {
+        "id": 4,
+        "title": "Bohemian Maxi Dress",
+        "category": "Clothing",
+        "category_bg": "#FF5733",
+        "card_bg": "#F9F9F9",
+        "text_button_bg": "#333333",
+        "description": "Embrace your inner bohemian with this flowy and vibrant maxi dress. Ideal for festivals, beach outings, or casual summer days.",
+        "price": "$59.99",
+        "image_url": "https://i.ibb.co/TkTjJFz/Food.png"
+    },
+    {
+        "id": 5,
+        "title": "Bluetooth Speaker",
+        "category": "Electronics",
+        "category_bg": "#FF9800",
+        "card_bg": "#E8E8E8",
+        "text_button_bg": "#333333",
+        "description": "Enjoy your favorite music on the go with this portable Bluetooth speaker. It delivers clear sound and has a long-lasting battery.",
+        "price": "$49.99",
+        "image_url": "https://i.ibb.co/TkTjJFz/Food.png"
+    },
+    {
+        "id": 6,
+        "title": "Modern Coffee Table",
+        "category": "Furniture",
+        "category_bg": "#795548",
+        "card_bg": "#FAFAFA",
+        "text_button_bg": "#333333",
+        "description": "Elevate your living room with this sleek and minimalist coffee table. It's both functional and stylish, with ample storage space.",
+        "price": "$199.00",
+        "image_url": "https://i.ibb.co/SNnfgK1/Clothing.png"
+    },
+    {
+        "id": 7,
+        "title": "Floral Print Backpack",
+        "category": "Accessories",
+        "category_bg": "#007BFF",
+        "card_bg": "#F5F5F5",
+        "text_button_bg": "#333333",
+        "description": "Carry your essentials in style with this floral print backpack. It's perfect for school, travel, or everyday adventures.",
+        "price": "$39.99",
+        "image_url": "https://i.ibb.co/N9YPR9P/Education.png"
+    },
+    {
+        "id": 8,
+        "title": "Smart Home Security Camera",
+        "category": "Electronics",
+        "category_bg": "#FF9800",
+        "card_bg": "#E8E8E8",
+        "text_button_bg": "#333333",
+        "description": "Keep your home secure with this smart security camera. It offers HD video, motion detection, and remote access via a mobile app.",
+        "price": "$129.99",
+        "image_url": "https://i.ibb.co/hyxcsfd/Health.png"
+    },
+    {
+        "id": 9,
+        "title": "Fitness Tracker Watch",
+        "category": "Sports & Outdoors",
+        "category_bg": "#4CAF50",
+        "card_bg": "#F9F9F9",
+        "text_button_bg": "#333333",
+        "description": "Achieve your fitness goals with this advanced tracker watch. It monitors your steps, heart rate, and sleep patterns.",
+        "price": "$89.99",
+        "image_url": "https://i.ibb.co/hyxcsfd/Health.png"
+    },
+    {
+        "id": 10,
+        "title": "Retro Polaroid Camera",
+        "category": "Electronics",
+        "category_bg": "#FF9800",
+        "card_bg": "#E8E8E8",
+        "text_button_bg": "#333333",
+        "description": "Capture memories in vintage style with this retro Polaroid camera. It instantly prints your photos for a nostalgic feel.",
+        "price": "$79.99",
+        "image_url": "https://i.ibb.co/N9YPR9P/Education.png"
+    },
+    {
+        "id": 11,
+        "title": "Cozy Knit Sweater",
+        "category": "Clothing",
+        "category_bg": "#FF5733",
+        "card_bg": "#F9F9F9",
+        "text_button_bg": "#333333",
+        "description": "Stay warm and stylish in this cozy knit sweater. It's perfect for chilly winter days and evenings by the fireplace.",
+        "price": "$49.99",
+        "image_url": "https://i.ibb.co/SNnfgK1/Clothing.png"
+    },
+    {
+        "id": 12,
+        "title": "Vintage Vinyl Records",
+        "category": "Music",
+        "category_bg": "#9C27B0",
+        "card_bg": "#F2F2F2",
+        "text_button_bg": "#333333",
+        "description": "Dive into the world of music history with these vintage vinyl records. A must-have for any audiophile or collector.",
+        "price": "$29.99",
+        "image_url": "https://i.ibb.co/TkTjJFz/Food.png"
+    }
+]

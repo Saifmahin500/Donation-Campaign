@@ -8,12 +8,13 @@ const Navbar = () => {
     <nav className="flex justify-between items-center py-6 px-5">
     <img src="https://i.ibb.co/YZCxhV8/Logo.png" alt="" />
 
-    <ul className="flex gap-5">
+    <ul className="flex gap-10">
       <li>
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-400 underline" : ""
+            isPending ? "pending" : isActive ? 
+            "text-red-400 underline" : ""
           }
         >
           Home
@@ -23,7 +24,8 @@ const Navbar = () => {
         <NavLink
           to="/donate"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-400 underline" : ""
+            isPending ? "pending" : isActive ? 
+            "text-red-400 underline" : ""
           }
         >
           Donate
@@ -33,7 +35,8 @@ const Navbar = () => {
         <NavLink
           to="/Statistics"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-400 underline" : ""
+            isPending ? "pending" : isActive ? 
+            "text-red-400 underline" : ""
           }
         >
           Statistics

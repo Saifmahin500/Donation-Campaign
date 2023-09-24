@@ -11,7 +11,6 @@ const Cards = () => {
     },[])
     return (
         <div>
-            <h3>Cards : {cards.length}</h3>
             <div className="grid  grid-cols-4 gap-5">
                 {
                     cards.map(card => <Card key={card.id} card={card}></Card>)

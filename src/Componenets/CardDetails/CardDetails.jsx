@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import Swal from "sweetalert2";
+import { saveDonateCard } from "../../ulility/localStroage";
+
 
 
 
@@ -10,12 +13,21 @@ const CardDetails = () => {
 
     const card = cards.find(card => card.id === idInt)
 
+    const handleAddCard = () =>{
+        saveDonateCard(idInt);
+        Swal.fire(
+            'Good job!',
+            'You clicked the button!',
+            'success'
+          )
+    }
+
     return (
         <div className="flex flex-col justify-center items-center">
             <div>
             <img className="w-[1320px] h-[700px] rounded-md "  src={card.image_url}
             alt="Shoes" />
-            <button className="btn text-white " style={{background : card.text_button_bg}}>Donate{card.price}</button>
+            <button onClick={handleAddCard} className="btn text-white " style={{background : card.text_button_bg}}>Donate{card.price}</button>
             </div>
             <div>
             <h2 className="text-4xl font-bold my-5">{card.title}</h2>

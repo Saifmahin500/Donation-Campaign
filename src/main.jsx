@@ -31,7 +31,7 @@ const router = createBrowserRouter([
       {
         path : "/card/:id",
         element : <CardDetails></CardDetails>,
-        loader : fetch('../public/data.json')
+        loader : () => fetch('../public/data.json')
       },
     ]
   },

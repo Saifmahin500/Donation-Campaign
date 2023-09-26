@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div>
         <div>
-    <nav className="flex justify-between items-center py-6 px-5">
+    <nav className="flex flex-col md:flex-row  justify-between items-center py-6 px-5">
     <img src="https://i.ibb.co/YZCxhV8/Logo.png" alt="" />
 
     <ul className="flex gap-10">

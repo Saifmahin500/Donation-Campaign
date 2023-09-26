@@ -25,7 +25,7 @@ const CardDetails = () => {
     return (
         <div className="flex flex-col justify-center items-center">
             <div className="relative">
-            <img className="w-[1320px] h-[700px] rounded-md "  src={card.image_url}
+            <img className="md:w-[1320px] md:h-[700px] rounded-md "  src={card.image_url}
             alt="Shoes" />
             <div className="absolute bottom-0 p-10 w-full mix-blend-normal bg-black bg-opacity-60">
             <button onClick={handleAddCard} className="btn text-white " style={{background : card.text_button_bg}}>Donate{card.price}</button>

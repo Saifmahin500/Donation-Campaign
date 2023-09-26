@@ -3,7 +3,7 @@
 const SingleDonateCard = ({ card }) => {
     const { id, title, image_url, category, category_bg, card_bg, text_button_bg,price } = card;
     return (
-        <div className="flex items-center w-[550px] h-[200px] " style={{background :card_bg}}>
+        <div className="flex items-center md:w-[550px] md:h-[200px] " style={{background :card_bg}}>
             <div>
             <figure><img className="w-[220px] h-[200px] " src={image_url} alt="Shoes" /></figure>
             </div>

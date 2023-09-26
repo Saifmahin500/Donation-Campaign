@@ -6,6 +6,7 @@ import SingleDonateCard from "./SingleDonateCard/SingleDonateCard";
 
 const Donate = () => {
     const [donateItem,SetDonateItem] = useState([])
+    const [cardLength, setCardLength] =useState(4)
     const donate = useLoaderData();
     useEffect( () => {
         const storeDonateId = getStoredDonateCard();
@@ -19,10 +20,16 @@ const Donate = () => {
     },[])
     return (
         <div>
-          <div className="grid grid-cols-2 gap-10 ">
+          <div className="grid md:grid-cols-2 gap-10 ">
           {
-            donateItem.map(card => <SingleDonateCard key={card.id} card={card}></SingleDonateCard>)
+            donateItem.slice(0 , cardLength).map(card => <SingleDonateCard key={card.id} card={card}></SingleDonateCard>)
            }
+          </div>
+          <div className={cardLength === donateItem.length && "hidden"}>
+         <div className="text-center">
+         <button onClick={() => setCardLength(donateItem.length)}
+          className="btn btn-success  mt-10">Show All</button>
+         </div>
           </div>
            
         </div>

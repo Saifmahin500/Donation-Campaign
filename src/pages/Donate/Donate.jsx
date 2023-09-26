@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredDonateCard } from "../../ulility/localStroage";
+import SingleDonateCard from "./SingleDonateCard/SingleDonateCard";
 
 
 const Donate = () => {
@@ -18,7 +19,11 @@ const Donate = () => {
     },[])
     return (
         <div>
-           <h2>this is donate page : {donateItem.length}</h2>
+          <div className="grid grid-cols-2 gap-10 ">
+          {
+            donateItem.map(card => <SingleDonateCard key={card.id} card={card}></SingleDonateCard>)
+           }
+          </div>
            
         </div>
     );

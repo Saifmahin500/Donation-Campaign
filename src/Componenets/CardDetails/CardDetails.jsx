@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+
 import { useLoaderData, useParams } from "react-router-dom";
 import Swal from "sweetalert2";
 import { saveDonateCard } from "../../ulility/localStroage";
@@ -28,7 +28,7 @@ const CardDetails = () => {
             <img className="md:w-[1320px] md:h-[700px] rounded-md "  src={card.image_url}
             alt="Shoes" />
             <div className="absolute bottom-0 p-10 w-full mix-blend-normal bg-black bg-opacity-60">
-            <button onClick={handleAddCard} className="btn text-white " style={{background : card.text_button_bg}}>Donate{card.price}</button>
+            <button onClick={handleAddCard} className="btn text-white " style={{background : card.text_button_bg}}>Donate ${card.price}</button>
             </div>
             </div>
             <div>
@@ -39,16 +39,7 @@ const CardDetails = () => {
        
 
 
-    //     <div className="card bg-base-100 shadow-xl ">
-    //     <figure>
-    //         <img src={card.image_url} alt="Shoes" />
-    //         </figure>
-    //     <div className="card-body">
-    //         
-    //         <p></p>
-            
-    //     </div>
-    // </div>
+   
     );
 };
 

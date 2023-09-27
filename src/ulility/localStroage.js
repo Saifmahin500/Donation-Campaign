@@ -13,7 +13,9 @@ const saveDonateCard = id => {
         storedDonateCard.push(id);
         localStorage.setItem('Donate-Card', JSON.stringify(storedDonateCard))
     }
+    
 
 }
+
 
 export {getStoredDonateCard,saveDonateCard}

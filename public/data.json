@@ -7,7 +7,7 @@
         "card_bg": "#d9e5ff",
         "text_button_bg": "#0052FF",
         "description": "This fashionable leather jacket is perfect for any season. Made with high-quality leather, it's both comfortable and stylish. Available in various sizes.",
-        "price": "$149.99",
+        "price": 149.99,
         "image_url": "https://i.ibb.co/hyxcsfd/Health.png"
     },
     {
@@ -18,7 +18,7 @@
         "card_bg": "#ffe3e4",
         "text_button_bg": "#ff444a",
         "description": "Stay punctual and fashionable with this elegant wristwatch. Featuring a stainless steel strap and a precise quartz movement.",
-        "price": "$79.99",
+        "price": 79.99,
         "image_url": "https://i.ibb.co/N9YPR9P/Education.png"
     },
     {
@@ -29,7 +29,7 @@
         "card_bg": "#ebf6e2",
         "text_button_bg": "#79C23F",
         "description": "Rediscover the joy of cycling with this vintage-inspired bicycle. It's perfect for leisurely rides through the park or your daily commute.",
-        "price": "$299.00",
+        "price": 299.00,
         "image_url": "https://i.ibb.co/SNnfgK1/Clothing.png"
     },
     {
@@ -40,7 +40,7 @@
         "card_bg": "#feeae3",
         "text_button_bg": "#F87147",
         "description": "Embrace your inner bohemian with this flowy and vibrant maxi dress. Ideal for festivals, beach outings, or casual summer days.",
-        "price": "$59.99",
+        "price": 59.99,
         "image_url": "https://i.ibb.co/TkTjJFz/Food.png"
     },
     {
@@ -51,7 +51,7 @@
         "card_bg": "#feeae3",
         "text_button_bg": "#F87147",
         "description": "Enjoy your favorite music on the go with this portable Bluetooth speaker. It delivers clear sound and has a long-lasting battery.",
-        "price": "$49.99",
+        "price": 49.99,
         "image_url": "https://i.ibb.co/TkTjJFz/Food.png"
     },
     {
@@ -62,7 +62,7 @@
         "card_bg": "#ebf6e2",
         "text_button_bg": "#79C23F",
         "description": "Elevate your living room with this sleek and minimalist coffee table. It's both functional and stylish, with ample storage space.",
-        "price": "$199.00",
+        "price": 199.00,
         "image_url": "https://i.ibb.co/SNnfgK1/Clothing.png"
     },
     {
@@ -73,7 +73,7 @@
         "card_bg": "#ffe3e4",
         "text_button_bg": "#ff444a",
         "description": "Carry your essentials in style with this floral print backpack. It's perfect for school, travel, or everyday adventures.",
-        "price": "$39.99",
+        "price": 39.99,
         "image_url": "https://i.ibb.co/N9YPR9P/Education.png"
     },
     {
@@ -84,7 +84,7 @@
         "card_bg": "#d9e5ff",
         "text_button_bg": "#0052FF",
         "description": "Keep your home secure with this smart security camera. It offers HD video, motion detection, and remote access via a mobile app.",
-        "price": "$129.99",
+        "price": 129.99,
         "image_url": "https://i.ibb.co/hyxcsfd/Health.png"
     },
     {
@@ -95,7 +95,7 @@
         "card_bg": "#d9e5ff",
         "text_button_bg": "#0052FF",
         "description": "Achieve your fitness goals with this advanced tracker watch. It monitors your steps, heart rate, and sleep patterns.",
-        "price": "$89.99",
+        "price": 89.99,
         "image_url": "https://i.ibb.co/hyxcsfd/Health.png"
     },
     {
@@ -106,7 +106,7 @@
         "card_bg": "#ffe3e4",
         "text_button_bg": "#ff444a",
         "description": "Capture memories in vintage style with this retro Polaroid camera. It instantly prints your photos for a nostalgic feel.",
-        "price": "$79.99",
+        "price": 79.99,
         "image_url": "https://i.ibb.co/N9YPR9P/Education.png"
     },
     {
@@ -117,7 +117,7 @@
         "card_bg": "#ebf6e2",
         "text_button_bg": "#79C23F",
         "description": "Stay warm and stylish in this cozy knit sweater. It's perfect for chilly winter days and evenings by the fireplace.",
-        "price": "$49.99",
+        "price": 49.99,
         "image_url": "https://i.ibb.co/SNnfgK1/Clothing.png"
     },
     {
@@ -128,7 +128,7 @@
         "card_bg": "#feeae3",
         "text_button_bg": "#F87147",
         "description": "Dive into the world of music history with these vintage vinyl records. A must-have for any audiophile or collector.",
-        "price": "$29.99",
+        "price": 29.99,
         "image_url": "https://i.ibb.co/TkTjJFz/Food.png"
     }
 ]

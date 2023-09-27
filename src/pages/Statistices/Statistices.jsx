@@ -12,8 +12,7 @@ const Statistices = () => {
     console.log(totalPrices);
 
     useEffect(() => {
-        const prices = priceCards.reduce((previous, current) => previous + 
-        current.price, 0);
+        const prices = priceCards.length;
         setTotalPrices(prices);
 
    
@@ -22,7 +21,7 @@ const Statistices = () => {
         console.log(storedDonateCard);
         if (storedDonateCard) {
 
-            const total =storedDonateCard.reduce((previous, current) => previous + current, 0);
+            const total =storedDonateCard.length;
             // console.log(total);
             setTotalPrice(total)
         }
